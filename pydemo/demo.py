@@ -1,3 +1,4 @@
+from __future__ import print_function
 import argparse
 
 def fibs(n):
@@ -29,7 +30,7 @@ def hello_world():
         Hello, world!
 
     '''
-    print 'Hello, world!'
+    print('Hello, world!')
 
 
 def main():
@@ -44,7 +45,7 @@ def main():
 
     args = parser.parse_args()
 
-    print fibs(args.integer)
+    print(fibs(args.integer))
     
 
 
