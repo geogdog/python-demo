@@ -35,13 +35,16 @@ def hello_world():
 def main():
     parser = argparse.ArgumentParser(prog='pydemo',
     description='''A small package to show off docstrings and stuff''')
-    parser.add_argument('integer', metavar='N',
-            help="an integer for fibs", type=int)
+    subparsers = parser.add_subparsers()
+
+    # fib parser
+    fib_parser = subparsers.add_parser('fib',
+            help="Return fibonacci number from sequence x")
+    fib_parser.add_argument('integer', type=int, help="An integer for fibs")
 
     args = parser.parse_args()
 
     print fibs(args.integer)
-
     
 
 
