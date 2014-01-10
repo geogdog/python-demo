@@ -3,8 +3,12 @@ python-demo
 ===========
 
 .. |master_build_status| image:: https://secure.travis-ci.org/geogdog/python-demo.png?branch=master
+   :target: https://travis-ci.org/geogdog/python-demo
+   :alt: Build Status
 
 .. |develop_build_status| image:: https://secure.travis-ci.org/geogdog/python-demo.png?branch=develop
+   :target: https://travis-ci.org/geogdog/python-demo
+   :alt: Build Status
 
 .. |master_requirements_status| image:: https://requires.io/github/geogdog/python-demo/requirements.png?branch=master
    :target: https://requires.io/github/geogdog/python-demo/requirements/?branch=master
