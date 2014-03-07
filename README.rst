@@ -26,4 +26,4 @@ python-demo
 | Develop:      | |develop_build_status| | |develop_requirements_status| |
 +---------------+------------------------+-------------------------------+
 
-A small python package to demo some functionality
+A small python package to demo some functionality.
