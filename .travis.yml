@@ -9,6 +9,6 @@ python:
 install:
     -  pip install -r requirements.txt
 script: 
-    - nosetests --with-doctest --with-coverage
+    - nosetests --with-doctest --with-coverage --cover-package pydemo
 after_success:
     - coveralls
