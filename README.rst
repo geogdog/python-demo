@@ -18,12 +18,21 @@ python-demo
    :target: https://requires.io/github/geogdog/python-demo/requirements/?branch=develop
    :alt: Requirements Status
 
-+---------------+------------------------+-------------------------------+
-| Branch        | Build Status           | Requirements Status           |
-+===============+========================+===============================+
-| Master:       | |master_build_status|  | |master_requirements_status|  |
-+---------------+------------------------+-------------------------------+
-| Develop:      | |develop_build_status| | |develop_requirements_status| |
-+---------------+------------------------+-------------------------------+
+
+.. |develop_coverage| image:: https://coveralls.io/repos/geogdog/python-demo/badge.png?branch=develop
+  :target: https://coveralls.io/r/geogdog/python-demo?branch=develop
+
+.. |master_coverage| image:: https://coveralls.io/repos/geogdog/python-demo/badge.png?branch=master
+  :target: https://coveralls.io/r/geogdog/python-demo?branch=develop
+
+
+
++---------------+------------------------+-------------------------------+--------------------+
+| Branch        | Build Status           | Requirements Status           | Coverage           |
++===============+========================+===============================+====================+
+| Master:       | |master_build_status|  | |master_requirements_status|  | |master_coverage|  |
++---------------+------------------------+-------------------------------+--------------------+
+| Develop:      | |develop_build_status| | |develop_requirements_status| | |develop_coverage| |
++---------------+------------------------+-------------------------------+--------------------+
 
 A small python package to demo some functionality.
