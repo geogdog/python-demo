@@ -23,7 +23,7 @@ python-demo
   :target: https://coveralls.io/r/geogdog/python-demo?branch=develop
 
 .. |master_coverage| image:: https://coveralls.io/repos/geogdog/python-demo/badge.png?branch=master
-  :target: https://coveralls.io/r/geogdog/python-demo?branch=develop
+  :target: https://coveralls.io/r/geogdog/python-demo?branch=master
 
 
 
