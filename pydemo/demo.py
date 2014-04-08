@@ -35,6 +35,7 @@ def hello_world():
 
 
 def main():
+    """Runs the main routine."""
     parser = argparse.ArgumentParser(prog='pydemo',
     description='''A small package to show off docstrings and stuff''')
     subparsers = parser.add_subparsers()
