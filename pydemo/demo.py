@@ -34,23 +34,21 @@ def hello_world():
     print('Hello, world!')
 
 
-def main():
-    """Runs the main routine."""
-    parser = argparse.ArgumentParser(prog='pydemo',
-    description='''A small package to show off docstrings and stuff''')
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+
+    parser = argparse.ArgumentParser(
+        prog='pydemo',
+        description='''A small package to show off docstrings and stuff''')
     subparsers = parser.add_subparsers()
 
     # fib parser
-    fib_parser = subparsers.add_parser('fib',
-            help="Return fibonacci number from sequence x")
+    fib_parser = subparsers.add_parser(
+        'fib',
+        help="Return fibonacci number from sequence x")
     fib_parser.add_argument('integer', type=int, help="An integer for fibs")
 
     args = parser.parse_args()
 
     print(fibs(args.integer))
-
-
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
-    main()
