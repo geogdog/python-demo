@@ -1,3 +1,6 @@
+.. image:: https://badge.waffle.io/geogdog/python-demo.png?label=ready&title=Ready 
+ :target: https://waffle.io/geogdog/python-demo
+ :alt: 'Stories in Ready'
 ===========
 python-demo
 ===========
