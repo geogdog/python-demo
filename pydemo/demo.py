@@ -34,10 +34,7 @@ def hello_world():
     print('Hello, world!')
 
 
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
-
+def main():
     parser = argparse.ArgumentParser(
         prog='pydemo',
         description='''A small package to show off docstrings and stuff''')
@@ -52,3 +49,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     print(fibs(args.integer))
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+    main()
