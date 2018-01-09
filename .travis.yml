@@ -6,6 +6,7 @@ branches:
 python:
     - "2.6"
     - "2.7"
+    - "3.6.3"
 install:
     -  pip install -r requirements.txt
 script: 
